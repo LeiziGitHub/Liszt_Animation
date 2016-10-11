@@ -17,6 +17,9 @@
 #define RandomImage_Array @[@"animaiton_image.jpg",@"animation_image1.png"]
 #define RandomImage RandomImage_Array[arc4random_uniform(2)]
 
+
+
+
 /** 设备的宽高 */
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
