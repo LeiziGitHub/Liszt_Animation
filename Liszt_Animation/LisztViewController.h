@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LisztViewController.h
 //  Liszt_Animation
 //
 //  Created by Lester on 16/10/11.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface LisztViewController : UIViewController
 
 @end
-

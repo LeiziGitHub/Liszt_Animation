@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		286314DE1DAC7FAF001C963B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286314DD1DAC7FAF001C963B /* main.m */; };
-		286314E11DAC7FAF001C963B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286314E01DAC7FAF001C963B /* AppDelegate.m */; };
-		286314E41DAC7FAF001C963B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286314E31DAC7FAF001C963B /* ViewController.m */; };
 		286314E71DAC7FAF001C963B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286314E51DAC7FAF001C963B /* Main.storyboard */; };
 		286314E91DAC7FAF001C963B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286314E81DAC7FAF001C963B /* Assets.xcassets */; };
 		286314EC1DAC7FAF001C963B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286314EA1DAC7FAF001C963B /* LaunchScreen.storyboard */; };
 		286314F71DAC7FAF001C963B /* Liszt_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286314F61DAC7FAF001C963B /* Liszt_AnimationTests.m */; };
 		286315021DAC7FAF001C963B /* Liszt_AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286315011DAC7FAF001C963B /* Liszt_AnimationUITests.m */; };
+		286315111DAC7FE1001C963B /* LisztAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286315101DAC7FE1001C963B /* LisztAppDelegate.m */; };
+		286315141DAC8025001C963B /* LisztViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286315131DAC8025001C963B /* LisztViewController.m */; };
+		286315191DAC810D001C963B /* CALayer+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 286315181DAC810D001C963B /* CALayer+Animation.m */; };
+		2863151B1DAC99DD001C963B /* animaiton_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2863151A1DAC99DD001C963B /* animaiton_image.jpg */; };
+		2863151D1DAC9A31001C963B /* animation_image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2863151C1DAC9A31001C963B /* animation_image1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +40,6 @@
 /* Begin PBXFileReference section */
 		286314D91DAC7FAF001C963B /* Liszt_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liszt_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286314DD1DAC7FAF001C963B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		286314DF1DAC7FAF001C963B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		286314E01DAC7FAF001C963B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		286314E21DAC7FAF001C963B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		286314E31DAC7FAF001C963B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		286314E61DAC7FAF001C963B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		286314E81DAC7FAF001C963B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286314EB1DAC7FAF001C963B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,14 @@
 		286314FD1DAC7FAF001C963B /* Liszt_AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Liszt_AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		286315011DAC7FAF001C963B /* Liszt_AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Liszt_AnimationUITests.m; sourceTree = "<group>"; };
 		286315031DAC7FAF001C963B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2863150F1DAC7FE1001C963B /* LisztAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LisztAppDelegate.h; sourceTree = "<group>"; };
+		286315101DAC7FE1001C963B /* LisztAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LisztAppDelegate.m; sourceTree = "<group>"; };
+		286315121DAC8025001C963B /* LisztViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LisztViewController.h; sourceTree = "<group>"; };
+		286315131DAC8025001C963B /* LisztViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LisztViewController.m; sourceTree = "<group>"; };
+		286315171DAC810D001C963B /* CALayer+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Animation.h"; sourceTree = "<group>"; };
+		286315181DAC810D001C963B /* CALayer+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Animation.m"; sourceTree = "<group>"; };
+		2863151A1DAC99DD001C963B /* animaiton_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animaiton_image.jpg; sourceTree = "<group>"; };
+		2863151C1DAC9A31001C963B /* animation_image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_image1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +108,13 @@
 		286314DB1DAC7FAF001C963B /* Liszt_Animation */ = {
 			isa = PBXGroup;
 			children = (
-				286314DF1DAC7FAF001C963B /* AppDelegate.h */,
-				286314E01DAC7FAF001C963B /* AppDelegate.m */,
-				286314E21DAC7FAF001C963B /* ViewController.h */,
-				286314E31DAC7FAF001C963B /* ViewController.m */,
+				2863151C1DAC9A31001C963B /* animation_image1.png */,
+				2863151A1DAC99DD001C963B /* animaiton_image.jpg */,
+				286315161DAC80FF001C963B /* CALayer+Animation */,
+				2863150F1DAC7FE1001C963B /* LisztAppDelegate.h */,
+				286315101DAC7FE1001C963B /* LisztAppDelegate.m */,
+				286315121DAC8025001C963B /* LisztViewController.h */,
+				286315131DAC8025001C963B /* LisztViewController.m */,
 				286314E51DAC7FAF001C963B /* Main.storyboard */,
 				286314E81DAC7FAF001C963B /* Assets.xcassets */,
 				286314EA1DAC7FAF001C963B /* LaunchScreen.storyboard */,
@@ -138,6 +148,15 @@
 				286315031DAC7FAF001C963B /* Info.plist */,
 			);
 			path = Liszt_AnimationUITests;
+			sourceTree = "<group>";
+		};
+		286315161DAC80FF001C963B /* CALayer+Animation */ = {
+			isa = PBXGroup;
+			children = (
+				286315171DAC810D001C963B /* CALayer+Animation.h */,
+				286315181DAC810D001C963B /* CALayer+Animation.m */,
+			);
+			path = "CALayer+Animation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +268,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2863151B1DAC99DD001C963B /* animaiton_image.jpg in Resources */,
 				286314EC1DAC7FAF001C963B /* LaunchScreen.storyboard in Resources */,
 				286314E91DAC7FAF001C963B /* Assets.xcassets in Resources */,
 				286314E71DAC7FAF001C963B /* Main.storyboard in Resources */,
+				2863151D1DAC9A31001C963B /* animation_image1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				286314E41DAC7FAF001C963B /* ViewController.m in Sources */,
-				286314E11DAC7FAF001C963B /* AppDelegate.m in Sources */,
+				286315141DAC8025001C963B /* LisztViewController.m in Sources */,
+				286315111DAC7FE1001C963B /* LisztAppDelegate.m in Sources */,
+				286315191DAC810D001C963B /* CALayer+Animation.m in Sources */,
 				286314DE1DAC7FAF001C963B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
